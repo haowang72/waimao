@@ -1,0 +1,81 @@
+﻿priority,order,category,brand,series,model_or_range,hp,refrigerant,main_application,demand,confidence,params_status
+P0,1,rotary,GMCC,PH,PH135X1C-4P3,1.0HP,R410A,Residential split AC,5,A,done
+P0,2,rotary,GMCC,PH,PH150X1C-4P3,1.5HP,R410A,Residential split AC,5,A,done
+P0,3,rotary,GMCC,PH,PH190X1C series,2.0HP,R410A,Residential / light commercial split,5,B,pending
+P0,4,rotary,GMCC,PH,PH230X1C series,2.5HP,R410A,Large split systems,4,B,pending
+P0,5,rotary,GMCC,PH,PH260X class,3.0HP,R410A,Light commercial split,4,B,pending
+P0,6,rotary,GMCC,PH,PH110X class,0.75HP,R410A,Small split / window units,3,C,pending
+P0,7,rotary,GMCC,PS,PS135 class R22,1.0HP,R22,Legacy R22 split replacement,4,B,pending
+P0,8,rotary,GMCC,PS,PS150 class R22,1.5HP,R22,Legacy R22 split replacement,4,B,pending
+P0,9,rotary,GMCC,Inverter rotary,KSN / PH-inverter series,1.0-2.0HP,R410A / R32,Inverter split AC,4,C,pending
+P0,10,rotary,Highly,SG,SG series 1HP,1.0HP,R410A,Residential split AC,4,B,pending
+P0,11,rotary,Highly,SG,SG series 1.5HP,1.5HP,R410A,Residential split AC,4,B,pending
+P0,12,rotary,Highly,SG,SG series 2HP,2.0HP,R410A,Residential / light commercial,3,B,pending
+P1,13,rotary,Rechi,RX/RS,RX series range,1.0-3.0HP,R410A,OEM-built split systems,3,C,pending
+P1,14,rotary,Panasonic,5RS,5RS102 / 5RS132 class,1.0-1.5HP,R410A,Split AC replacement Asia,4,B,pending
+P1,15,rotary,Panasonic,2KS,2KS224 class,2.0HP,R410A,Split AC replacement Asia,3,B,pending
+P1,16,rotary,Welling,Rotary,Standard rotary range,1.0-3.0HP,R410A,Export split systems,3,C,pending
+P1,17,rotary,LG,Rotary,LG rotary range,1.0-2.0HP,R410A,Korean-built splits,2,C,pending
+P1,18,rotary,Samsung,Rotary,Samsung rotary range,1.0-2.0HP,R410A,Korean-built splits,2,C,pending
+P1,19,rotary,SANYO,Rotary,SANYO rotary range,1.0-2.0HP,R410A,Japanese-built splits,2,C,pending
+P1,20,rotary,Mitsubishi Electric,Rotary,Mitsubishi rotary range,1.5-3.0HP,R410A,Premium splits,2,C,pending
+P0,21,scroll,Copeland,ZR,ZR24K3 class,2.0HP,R410A,Commercial split systems,5,A,pending
+P0,22,scroll,Copeland,ZR,ZR34K3-PFJ-522,3.0HP,R410A,Commercial split / packaged units,5,A,done
+P0,23,scroll,Copeland,ZR,ZR48K3 class,4.0HP,R410A,Commercial AC / heat pump,5,B,pending
+P0,24,scroll,Copeland,ZR,ZR61 class,5.0HP,R410A,Commercial AC / chillers,4,B,pending
+P0,25,scroll,Copeland,ZR,ZR72KC class,6.0HP,R410A,Packaged rooftop units,4,B,pending
+P0,26,scroll,Copeland,ZR,ZR94KC class,8.0HP,R410A,Large packaged units,3,B,pending
+P1,27,scroll,Copeland,ZP,ZP24K3E-PFJ-522,2.0HP,R410A,Ducted splits / VRF modules,4,A,done
+P1,28,scroll,Copeland,ZP,ZP32 class,2.5HP,R410A,Ducted splits,3,B,pending
+P1,29,scroll,Copeland,ZP,ZP42 class,3.5HP,R410A,Ducted splits / small VRF,3,B,pending
+P1,30,scroll,Copeland,ZB,ZB21 class,2.0HP,R404A / R407C,Low-temperature cold rooms,4,B,pending
+P1,31,scroll,Copeland,ZB,ZB26 class,2.5HP,R404A / R407C,Low-temperature cold rooms,4,B,pending
+P1,32,scroll,Copeland,ZB,ZB38 class,3.5HP,R404A / R407C,Frozen food cold stores,4,B,pending
+P1,33,scroll,Copeland,ZB,ZB45 class,4.0HP,R404A / R407C,Frozen food cold stores,3,B,pending
+P1,34,scroll,Copeland,ZB,ZB56 class,5.0HP,R404A / R407C,Industrial freezing,3,B,pending
+P1,35,scroll,Copeland,ZB,ZB76 class,7.0HP,R404A / R407C,Industrial freezing,3,B,pending
+P1,36,scroll,Copeland,ZB,ZB88 class,8.0HP,R404A / R407C,Large freezing lines,2,B,pending
+P0,37,scroll,Danfoss Maneurop,MT,MT22 class,2.0HP,R22 / R407C,Condensing units,4,B,pending
+P0,38,scroll,Danfoss Maneurop,MT,MT36 class,3.0HP,R22 / R407C,Cold rooms,4,B,pending
+P0,39,scroll,Danfoss Maneurop,MT,MT64HM4,5.0HP,R22 / R407C,Cold rooms / condensing units,4,A,done
+P0,40,scroll,Danfoss Maneurop,MT,MT80 class,7.0HP,R22 / R407C,Large cold rooms,3,B,pending
+P0,41,scroll,Danfoss Maneurop,MT,MT100 class,9.0HP,R22 / R407C,Industrial refrigeration,3,B,pending
+P1,42,scroll,Danfoss Maneurop,MTZ,MTZ22-MTZ100 range,2.0-9.0HP,R407C / R134a,HFC retrofit projects,4,C,pending
+P1,43,scroll,Danfoss,SM/SZ/SY,SM and SZ series,3.0-12.0HP,R410A / R32,Heat pumps / light commercial,3,C,pending
+P1,44,scroll,Hitachi,Scroll,Hitachi commercial scroll,5.0-15.0HP,R410A,Asian commercial systems,3,C,pending
+P1,45,scroll,Compatible replacement,Copeland cross-reference,Full cross-ref table page,-,Various,Retrofit / service buyers,4,A,pending
+P0,46,reciprocating,Embraco,FFI,FFI12HBK,1/2HP,R134a,Beverage coolers / display cases,5,A,done
+P0,47,reciprocating,Embraco,EMX,EMX series range,1/4-1/2HP,R134a,Refrigerators / freezers,4,B,pending
+P0,48,reciprocating,Embraco,EMY,EMY series range,1/5-1/3HP,R134a,Domestic refrigerators,4,B,pending
+P0,49,reciprocating,Embraco,EGZ,EGZ80HLP,3/4HP,R134a,Display cabinets / ice machines,4,A,done
+P0,50,reciprocating,Embraco,NT,NT series range,1/4-1/2HP,R134a / R600a,Modern refrigerators,3,B,pending
+P0,51,reciprocating,Embraco,NJ,NJ series range,1/4-1/3HP,R600a,Energy-efficient refrigerators,3,B,pending
+P0,52,reciprocating,Aspera,NEK,NEK6213Z,1/3HP,R134a,Chest and upright freezers,5,A,done
+P0,53,reciprocating,Aspera,NEK,NEK2134GK,1/3HP,R134a / R600a,Compact freezers,4,A,done
+P0,54,reciprocating,Aspera,NE,NE series range,1/6-1/3HP,R134a,Refrigerator-freezers,4,C,pending
+P1,55,reciprocating,Aspera,N,N series range,1/5-1/4HP,R134a,Small cabinets,3,C,pending
+P0,56,reciprocating,Secop,BD,BD35F 12/24V,small,R134a,Car fridges / solar refrigeration,5,A,pending
+P0,57,reciprocating,Secop,BD,BD50F 12/24V,small,R134a,RV and marine fridges,4,A,pending
+P1,58,reciprocating,Secop,NL,NL series range,1/4-1/2HP,R134a / R600a,Commercial cabinets,3,C,pending
+P1,59,reciprocating,Secop,FR,FR series range,1/5-1/3HP,R600a,Efficiency-focused cabinets,3,C,pending
+P1,60,reciprocating,Donper,QD,QD series range,1/6-1/2HP,R134a / R600a,Budget refrigerators,4,C,pending
+P1,61,reciprocating,Donper,V,V series range,1/4-1/2HP,R134a,Export OEM cabinets,3,C,pending
+P1,62,reciprocating,Jiaxipera,VES/VEM,Series range,1/6-1/2HP,R600a,Budget refrigerators,3,C,pending
+P1,63,reciprocating,Wanbao,Series,Series range,1/6-1/3HP,R600a,Budget freezers,3,C,pending
+P1,64,reciprocating,Huayi,Series,Series range,1/6-1/3HP,R600a,Budget freezers,3,C,pending
+P1,65,reciprocating,Tecumseh,AE,AE series range,1/3-1HP,R134a,Africa / LatAm replacement,4,C,pending
+P1,66,reciprocating,Tecumseh,AZ,AZ series range,1/4-3/4HP,R134a,Africa / LatAm replacement,3,C,pending
+P1,67,reciprocating,Kulthorn,Series,Series range,1/5-1/2HP,R134a,Southeast Asia replacement,3,C,pending
+P1,68,reciprocating,LG,Hermetic,LG hermetic range,1/5-1/2HP,R600a,Korean refrigerators,2,C,pending
+P1,69,reciprocating,Samsung,Hermetic,Samsung hermetic range,1/5-1/2HP,R600a,Korean refrigerators,2,C,pending
+P1,70,reciprocating,Panasonic,Hermetic,Panasonic hermetic range,1/6-1/3HP,R134a,Japanese refrigerators,2,C,pending
+P2,71,other,Bitzer,Semi-hermetic,Semi-hermetic range,3-30HP,R404A / R22,Industrial refrigeration,3,C,hold
+P2,72,other,Carrier / Trane,Semi-hermetic,Unit replacement range,5-40HP,Various,Large chiller retrofit,3,C,hold
+P2,73,other,Hanbell,Screw,Screw compressor range,30-120HP,R134a / R22,Industrial chillers,2,C,hold
+P2,74,other,RefComp,Semi-hermetic,Semi-hermetic range,3-20HP,R404A,Cold storage,2,C,hold
+P2,75,other,Sanden,Automotive,Car AC compressor range,-,R134a / R1234yf,Vehicle air conditioning,3,C,hold
+P2,76,other,Accessories,Start capacitors,Universal range,-,-,Compressor startup,4,A,hold
+P2,77,other,Accessories,Start relays / PTC,Universal range,-,-,Compressor startup,4,A,hold
+P2,78,other,Accessories,Crankcase heaters,Universal range,-,-,Cold climate protection,3,A,hold
+P2,79,other,Accessories,Filter driers,Universal range,-,-,System service,3,A,hold
+P2,80,other,Accessories,Mounting grommets,Universal range,-,-,Vibration isolation,3,A,hold

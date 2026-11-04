@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# WorkBuddy 内部（含记忆/配置，不进版本库）
+.workbuddy/
+
+# OS junk
+.DS_Store
+Thumbs.db
+Thumbs.db*
+ehthumbs.db

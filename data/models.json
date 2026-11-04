@@ -1,0 +1,660 @@
+{
+  "site": {
+    "brand": "Baizly",
+    "brand_desc": "China Second-Hand Compressor Recycling",
+    "brand_legal": "B.J. Baizly TECH CO., LTD.",
+    "logo": "logo-horizontal.png",
+    "og_image": "og-cover.png",
+    "tagline": "We are a second-hand air conditioning compressor recycling company based in China, offering you more competitive prices.",
+    "invite": "If you have bulk or long-term demand, we welcome the opportunity to build a long-term relationship — we will be your most reliable ally in China.",
+    "domain": "baizly.cn",
+    "email": "haow@wqsxb.com",
+    "phone": "+86 13401119022",
+    "whatsapp": "+86 19176957936",
+    "telegram": "accompressorhub",
+    "wechat": "13401119022",
+    "location": "Beijing, China",
+    "hours": "Mon–Sat, 09:00–18:00 (GMT+8)",
+    "warranty": "Tested & inspected before dispatch",
+    "lead_time": "3–7 working days dispatch (stock items)",
+    "ship_terms": "EXW / FOB Shenzhen or Guangzhou / CIF / DDP available",
+    "disclaimer": "Specifications are manufacturer-published typical reference values and may vary slightly by production batch.",
+    "wecom_webhook": "REPLACE_WITH_QYAPI_WEBHOOK_KEY",
+    "inquiry_endpoint": "/api/inquiry"
+  },
+  "categories": [
+    {
+      "slug": "rotary",
+      "name": "Rotary Compressors",
+      "h1": "Rotary Air Conditioner Compressors — Second-Hand Wholesale Supply",
+      "lead": "Single-phase rotary compressors for split AC, window units and portable air conditioners from 0.5 HP to 3 HP, R22 / R410A / R32 designs.",
+      "keywords": [
+        "second hand rotary compressor wholesale",
+        "second hand AC rotary compressor supplier",
+        "R410A rotary compressor bulk buy",
+        "used split unit compressor"
+      ],
+      "intro": [
+        "Rotary compressors are the workhorse of residential and light commercial air conditioning. They run quietly, cost less than scroll equivalents in small capacities, and are easier to service in the field.",
+        "We supply fixed-speed and inverter rotary compressors from 0.5 HP to 3 HP, covering R22, R410A and R32 refrigerants with 220–240 V / 50 Hz and 208–230 V / 60 Hz windings for different export markets."
+      ],
+      "buying_notes": [
+        "Match refrigerant exactly — an R410A compressor cannot replace an R22 unit without system redesign.",
+        "We supply 220–240 V / 50 Hz and 208–230 V / 60 Hz windings — tell us your market and we will match.",
+        "Ask whether the unit ships with the accumulator, mounting studs and start accessories.",
+        "For tropical markets we can supply T3-rated units — let us know your ambient class."
+      ]
+    },
+    {
+      "slug": "scroll",
+      "name": "Scroll Compressors",
+      "h1": "Scroll Air Conditioner Compressors — Second-Hand Wholesale Supply",
+      "lead": "Three-phase and single-phase scroll compressors from 2 HP to 30 HP for split systems, packaged units, heat pumps, chillers and VRF modules.",
+      "keywords": [
+        "second hand scroll compressor wholesale",
+        "second hand Copeland scroll compressor supplier",
+        "R410A scroll compressor bulk",
+        "second hand HVAC scroll compressor export"
+      ],
+      "intro": [
+        "Scroll compressors deliver higher efficiency and lower sound levels than rotary or reciprocating designs in medium and large capacities, which is why they dominate commercial split systems, heat pumps and packaged rooftop units.",
+        "Our scroll range covers 2 HP to 30 HP in R410A, R407C and R32 versions, including replacement models that cross to major reference numbers used in the field."
+      ],
+      "buying_notes": [
+        "We verify rotation direction and single vs three-phase supply against your requirement before dispatch.",
+        "Scroll compressors are sensitive to burnout acid — always replace the drier and check for acid after a motor failure.",
+        "Check compressor discharge line temperature limits when retrofitting to R32.",
+        "Ask us for the cross-reference table if you are replacing an existing unit."
+      ]
+    },
+    {
+      "slug": "reciprocating",
+      "name": "Hermetic Reciprocating Compressors",
+      "h1": "Hermetic Reciprocating Compressors — Second-Hand Wholesale Supply",
+      "lead": "RSIR / CSIR / RSCR reciprocating compressors for freezers, refrigerators, cold rooms, ice machines, display cases and beverage coolers.",
+      "keywords": [
+        "second hand hermetic compressor wholesale",
+        "second hand refrigeration compressor supplier",
+        "second hand freezer compressor bulk buy",
+        "R134a / R600a compressor export"
+      ],
+      "intro": [
+        "Hermetic reciprocating compressors remain the standard for light commercial refrigeration. Compact, reliable and easy to match to cabinets, they cover everything from domestic freezers to cold rooms and ice machines.",
+        "We stock LBP (low back pressure), MBP (medium back pressure) and HBP (high back pressure) series in R134a and R600a versions, with cabinet-style models for beverages and display cases.",
+        "Every unit is packed for export with palletized cartons, and we can arrange third-party inspection before shipment."
+      ],
+      "buying_notes": [
+        "We stock LBP, MBP and HBP classes — tell us your duty and we will match the right unit.",
+        "We confirm whether an external starting relay and capacitor are required and include them as needed.",
+        "For water-cooled or remote systems we verify the indoor electric arrangements against your original.",
+        "R600a units require certified export packing for flammable refrigerant — we handle it."
+      ]
+    }
+  ],
+  "models": [
+    {
+      "slug": "gmcc-ph135x1c-4p3",
+      "kind": "model",
+      "brand": "GMCC",
+      "model": "PH135X1C-4P3",
+      "category": "rotary",
+      "popular": true,
+      "hp": "1.0 HP",
+      "refrigerant": "R410A",
+      "type": "Rotary, fixed speed",
+      "specs": {
+        "Nominal capacity": "≈ 2.6 kW / 9,000 BTU/h",
+        "Displacement": "13.6 cc/rev",
+        "Refrigerant": "R410A",
+        "Power supply": "220–240 V, 1 Ph, 50 Hz",
+        "Motor type": "CSIR / CSR",
+        "Input power": "≈ 900 W",
+        "Current": "≈ 4.2 A (RLA)",
+        "Type of oil": "POE",
+        "Application": "1 HP residential / light commercial split systems",
+        "Net weight": "≈ 12 kg"
+      },
+      "intro": "The GMCC PH135X1C-4P3 is a 1 HP fixed-speed rotary compressor built for R410A residential split air conditioners. It is one of the most widely stocked replacement units for 1 HP inverter-free models, which means spares and compatibility data are easy to find in every export market.",
+      "highlights": [
+        "Direct drop-in replacement for a wide range of 1 HP R410A split units",
+        "Low-vibration rotary design keeps indoor noise to a minimum",
+        "Factory oil charged — ready to install with no service top-up",
+        "Batch-coded and electrically tested by our team before packing"
+      ],
+      "applications": [
+        "1 HP residential split systems",
+        "Small office and shop air conditioning",
+        "Wall-mounted and floor-standing units"
+      ],
+      "compatibility": "Commonly used as a replacement in 1 HP R410A split units built on the GMCC PH platform; we verify displacement, refrigerant and mounting pattern against your original before supply.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "3–7 working days",
+        "price": "Tiered by quantity — ask for our best rate"
+      }
+    },
+    {
+      "slug": "gmcc-ph150x1c-4p3",
+      "kind": "model",
+      "brand": "GMCC",
+      "model": "PH150X1C-4P3",
+      "category": "rotary",
+      "popular": true,
+      "hp": "1.5 HP",
+      "refrigerant": "R410A",
+      "type": "Rotary, fixed speed",
+      "specs": {
+        "Nominal capacity": "≈ 3.5 kW / 12,000 BTU/h",
+        "Displacement": "14.8 cc/rev",
+        "Refrigerant": "R410A",
+        "Power supply": "220–240 V, 1 Ph, 50 Hz",
+        "Motor type": "CSIR / CSR",
+        "Input power": "≈ 1,150 W",
+        "Current": "≈ 5.4 A (RLA)",
+        "Type of oil": "POE",
+        "Application": "1.5 HP residential split systems",
+        "Net weight": "≈ 13 kg"
+      },
+      "intro": "The GMCC PH150X1C-4P3 covers the 1.5 HP class — the single largest volume segment of the global residential split market. It is the compressor most contractors ask for when a bedroom or small living-room unit needs replacement in hot-climate markets.",
+      "highlights": [
+        "Strong availability: this model moves in volume, so lead times stay short",
+        "Built for high ambient operation — popular across Middle East and South Asia",
+        "Same footprint family as the 1 HP PH135, so mounting patterns are familiar to installers",
+        "Tested for insulation resistance and current draw before shipment"
+      ],
+      "applications": [
+        "1.5 HP split systems for bedrooms and medium-size rooms",
+        "Light commercial wall-mounted units",
+        "Replacement stock for service contractors"
+      ],
+      "compatibility": "Sits in the GMCC PH family with similar mounting geometry to the 1 HP version; we confirm suction/discharge pipe diameters and the crankcase heater requirement against your unit.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "3–7 working days",
+        "price": "Tiered by quantity — ask for our best rate"
+      }
+    },
+    {
+      "slug": "copeland-zr34k3-pfj-522",
+      "kind": "model",
+      "brand": "Copeland",
+      "model": "ZR34K3-PFJ-522",
+      "category": "scroll",
+      "popular": true,
+      "hp": "3 HP",
+      "refrigerant": "R410A",
+      "type": "Scroll",
+      "specs": {
+        "Nominal capacity": "≈ 10.5 kW / 36,000 BTU/h",
+        "Displacement": "8.02 m³/h",
+        "Refrigerant": "R410A",
+        "Power supply": "380–420 V, 3 Ph, 50 Hz",
+        "Motor type": "Three-phase scroll motor",
+        "Input power": "≈ 3.4 kW",
+        "Current": "≈ 6.5 A (RLA)",
+        "Type of oil": "POE",
+        "Application": "Commercial split systems, heat pumps, packaged units",
+        "Net weight": "≈ 29.5 kg"
+      },
+      "intro": "The Copeland ZR34K3-PFJ-522 is a 3 HP three-phase scroll compressor for R410A commercial split and packaged systems. Scroll construction means fewer moving parts, smoother running and higher part-load efficiency than an equivalent reciprocating unit — which is exactly what facility buyers look for in mid-size commercial jobs.",
+      "highlights": [
+        "3 HP class workhorse for commercial splits and light process cooling",
+        "Scroll compliance means high volumetric efficiency and low sound",
+        "Built-in motor protection on most variants",
+        "Supplied with a full cross-reference check before we ship"
+      ],
+      "applications": [
+        "Commercial split systems and small rooftop package units",
+        "R410A heat pump modules",
+        "Process cooling and small chiller applications"
+      ],
+      "compatibility": "Commonly paired with 3 HP-class R410A scroll systems. As three-phase scroll models are rotation sensitive, we verify phase sequence against your supply before dispatch.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "5–10 working days",
+        "price": "Tiered by quantity — ask for our best rate"
+      }
+    },
+    {
+      "slug": "copeland-zp24k3e-pfj-522",
+      "kind": "model",
+      "brand": "Copeland",
+      "model": "ZP24K3E-PFJ-522",
+      "category": "scroll",
+      "popular": true,
+      "hp": "2 HP",
+      "refrigerant": "R410A",
+      "type": "Scroll",
+      "specs": {
+        "Nominal capacity": "≈ 7.0 kW / 24,000 BTU/h",
+        "Displacement": "5.92 m³/h",
+        "Refrigerant": "R410A",
+        "Power supply": "380–420 V, 3 Ph, 50 Hz",
+        "Motor type": "Three-phase scroll motor",
+        "Input power": "≈ 2.4 kW",
+        "Current": "≈ 4.6 A (RLA)",
+        "Type of oil": "POE",
+        "Application": "Ducted splits, VRF modules, chillers",
+        "Net weight": "≈ 26 kg"
+      },
+      "intro": "The ZP24K3E-PFJ-522 is a 2 HP R410A scroll compressor designed for ducted splits, VRF modules and compact chiller packages. Compared with rotary units of similar capacity it runs cooler under part load, which is why contractors specify it for systems that cycle often.",
+      "highlights": [
+        "Ideal for systems with frequent start-stop cycles",
+        "Lower discharge temperature than piston equivalents",
+        "Available with corresponding replacement options to control cost",
+        "Full technical datasheet supplied with every quote"
+      ],
+      "applications": [
+        "Ducted and cassette split systems",
+        "Small VRF outdoor units",
+        "Compact water chillers and heat recovery units"
+      ],
+      "compatibility": "We cross-check the run/start terminal layout and the internal overload protection type before supplying a replacement scroll unit.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "5–10 working days",
+        "price": "Tiered by quantity — ask for our best rate"
+      }
+    },
+    {
+      "slug": "maneurop-mt64hm4",
+      "kind": "model",
+      "brand": "Maneurop (Danfoss)",
+      "model": "MT64HM4",
+      "category": "scroll",
+      "popular": false,
+      "hp": "5 HP",
+      "refrigerant": "R22 / R407C",
+      "type": "Scroll",
+      "specs": {
+        "Nominal capacity": "≈ 15 kW / 51,000 BTU/h",
+        "Displacement": "≈ 21.5 m³/h",
+        "Refrigerant": "R22 / R407C",
+        "Power supply": "380–420 V, 3 Ph, 50 Hz",
+        "Motor type": "Three-phase scroll motor",
+        "Input power": "≈ 4.9 kW",
+        "Current": "≈ 9.0 A (RLA)",
+        "Type of oil": "Mineral / POE (by refrigerant)",
+        "Application": "Cold rooms, condensing units, chillers",
+        "Net weight": "≈ 55 kg"
+      },
+      "intro": "MT64HM4 belongs to the Maneurop MT scroll family used across cold rooms and medium-temperature condensing units. It is a go-to choice in refrigeration retrofit work where an older semi-hermetic unit is being replaced with a quieter, more efficient scroll.",
+      "highlights": [
+        "Proven MT platform with wide service familiarity",
+        "Suitable for both air conditioning and medium-temperature refrigeration",
+        "Retrofit friendly: fit-for-fit with many legacy cabinets",
+        "Spares and service parts readily available in most markets"
+      ],
+      "applications": [
+        "Cold room condensing units",
+        "Medium-temperature refrigeration racks",
+        "Packaged chillers and air handlers"
+      ],
+      "compatibility": "Frequently used in R22 systems transitioning to R407C; POE oil is normally required for HFC blends when retrofitting.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "7–12 working days",
+        "price": "Tiered by quantity — ask for our best rate"
+      }
+    },
+    {
+      "slug": "embraco-ffi12hbk",
+      "kind": "model",
+      "brand": "Embraco",
+      "model": "FFI12HBK",
+      "category": "reciprocating",
+      "popular": true,
+      "hp": "1/3 HP",
+      "refrigerant": "R134a",
+      "type": "Hermetic reciprocating (L/M/HBP)",
+      "specs": {
+        "Nominal capacity": "≈ 630 W @ -5 °C / ≈ 319 W @ -23.3 °C evaporating",
+        "Displacement": "11.14 cc/rev",
+        "Refrigerant": "R134a",
+        "Power supply": "220–240 V, 1 Ph, 50 Hz",
+        "Motor type": "RSIR / CSIR",
+        "Back pressure": "L / M / HBP",
+        "Input power": "≈ 320 W",
+        "Type of oil": "POE / AB oil",
+        "Application": "Refrigerators, beverage coolers, display cabinets, ice makers",
+        "Net weight": "≈ 10.9 kg"
+      },
+      "intro": "FFI12HBK is a classic 1/2 HP high back pressure hermetic compressor for R134a. It is used in beverage coolers, display cases and ice machines where the evaporating temperature stays relatively high and reliability over long running hours matters more than peak capacity.",
+      "highlights": [
+        "High-efficiency design reduces cabinet running cost",
+        "HBP class — built for chillers and beverage cabinets that run warm-side",
+        "Quiet operation suitable for front-of-house equipment",
+        "Available in both original and qualified replacement grades"
+      ],
+      "applications": [
+        "Beverage coolers and display cabinets",
+        "Ice makers and water dispensers",
+        "Household refrigerators and freezers"
+      ],
+      "compatibility": "We match the back pressure class and the starting device (RSIR vs CSIR) to your original unit before supply.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "3–7 working days",
+        "price": "Tiered by quantity — ask for our best rate"
+      }
+    },
+    {
+      "slug": "embraco-egz80hlp",
+      "kind": "model",
+      "brand": "Embraco",
+      "model": "EGZ80HLP",
+      "category": "reciprocating",
+      "popular": false,
+      "hp": "3/4 HP",
+      "refrigerant": "R134a",
+      "type": "Hermetic reciprocating (HBP)",
+      "specs": {
+        "Nominal capacity": "≈ 620 W @ -10 °C evaporating",
+        "Displacement": "≈ 15.2 cc/rev",
+        "Refrigerant": "R134a",
+        "Power supply": "220–240 V, 1 Ph, 50 Hz",
+        "Motor type": "CSIR",
+        "Back pressure": "HBP (high back pressure)",
+        "Input power": "≈ 460 W",
+        "Type of oil": "POE / AB oil",
+        "Application": "Large display cabinets, cold rooms, ice machines",
+        "Net weight": "≈ 11 kg"
+      },
+      "intro": "EGZ80HLP steps up to roughly 3/4 HP in the HBP class, covering larger display cases, small cold rooms and high-output ice machines. It targets installers who need more capacity without moving to a three-phase condensing unit.",
+      "highlights": [
+        "Higher capacity in a single-phase package",
+        "Robust valve plate design for extended duty cycles",
+        "Flexible mounting with standard rubber grommets",
+        "Export-packed for long-distance container shipping"
+      ],
+      "applications": [
+        "Large beverage and dairy display cabinets",
+        "Small walk-in cold rooms",
+        "Commercial ice machines"
+      ],
+      "compatibility": "HBP compressors should not be substituted into LBP freezer systems — we confirm the duty cycle rating against your original before supply.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "5–10 working days",
+        "price": "Tiered by quantity — ask for our best rate"
+      }
+    },
+    {
+      "slug": "aspera-nek6213z",
+      "kind": "model",
+      "brand": "Aspera (Embraco)",
+      "model": "NEK6213Z",
+      "category": "reciprocating",
+      "popular": true,
+      "hp": "1/3 HP",
+      "refrigerant": "R134a",
+      "type": "Hermetic reciprocating (LBP)",
+      "specs": {
+        "Nominal capacity": "≈ 165 W @ -23.3 °C evaporating",
+        "Displacement": "≈ 6.2 cc/rev",
+        "Refrigerant": "R134a",
+        "Power supply": "220–240 V, 1 Ph, 50 Hz",
+        "Motor type": "RSIR / CSIR",
+        "Back pressure": "LBP (low back pressure)",
+        "Input power": "≈ 180 W",
+        "Type of oil": "POE / AB oil",
+        "Application": "Freezers, chest freezers, display freezers",
+        "Net weight": "≈ 7.5 kg"
+      },
+      "intro": "NEK6213Z is one of the most widely distributed 1/3 HP low back pressure compressors in the world. Chest freezers, upright freezers and display freezers built over the last two decades frequently come fitted with this platform, which makes it a permanent item on every service wholesaler's shelf.",
+      "highlights": [
+        "Mass-market LBP platform with huge installed base",
+        "Competitive replacement cost for volume buyers",
+        "Runs on standard RSIR starting arrangements",
+        "Consistent availability across production batches"
+      ],
+      "applications": [
+        "Household chest and upright freezers",
+        "Supermarket display freezers",
+        "Small ice cream cabinets"
+      ],
+      "compatibility": "Typical replacement for many 1/3 HP LBP freezer units; we confirm the starting device type and cabinet voltage against your original.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "3–7 working days",
+        "price": "Tiered by quantity — ask for our best rate"
+      }
+    },
+    {
+      "slug": "aspera-nek2134gk",
+      "kind": "model",
+      "brand": "Aspera (Embraco)",
+      "model": "NEK2134GK",
+      "category": "reciprocating",
+      "popular": false,
+      "hp": "1/3 HP",
+      "refrigerant": "R134a / R600a variants",
+      "type": "Hermetic reciprocating (LBP)",
+      "specs": {
+        "Nominal capacity": "≈ 150 W @ -23.3 °C evaporating",
+        "Displacement": "≈ 5.7 cc/rev",
+        "Refrigerant": "R134a (R600a versions available)",
+        "Power supply": "220–240 V, 1 Ph, 50 Hz",
+        "Motor type": "RSIR",
+        "Back pressure": "LBP (low back pressure)",
+        "Input power": "≈ 160 W",
+        "Type of oil": "POE / mineral (by refrigerant)",
+        "Application": "Compact freezers, refrigerators, ice cream cabinets",
+        "Net weight": "≈ 7 kg"
+      },
+      "intro": "NEK2134GK sits in the compact end of the LBP range, aimed at small cabinet freezers and refrigerator-freezer combinations where energy consumption is the buying criterion. R600a variants are available for markets with stricter efficiency rules.",
+      "highlights": [
+        "Low energy consumption for efficiency-led markets",
+        "Compact footprint fits tight cabinet bases",
+        "Both R134a and R600a executions can be sourced",
+        "Certified packing for flammable refrigerant variants"
+      ],
+      "applications": [
+        "Compact household freezers",
+        "Refrigerator-freezer combinations",
+        "Small ice cream and frozen food cabinets"
+      ],
+      "compatibility": "Never mix R134a and R600a units in the same application — the oil and charge size are different. Tell us which refrigerant your cabinets use.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "3–7 working days",
+        "price": "Tiered by quantity — ask for our best rate"
+      }
+    },
+    {
+      "slug": "gmcc-ph-series",
+      "kind": "series",
+      "brand": "GMCC",
+      "model": "PH Series (0.75–3 HP rotary)",
+      "category": "rotary",
+      "popular": true,
+      "hp": "0.75–3 HP",
+      "refrigerant": "R410A / R32",
+      "type": "Rotary series",
+      "specs": {
+        "Capacity range": "≈ 2.2 – 7.5 kW",
+        "Refrigerants": "R410A, R32",
+        "Power supply": "220–240 V, 1 Ph, 50/60 Hz",
+        "Motor type": "Fixed speed and inverter versions",
+        "Typical use": "Split systems, window units, portable AC",
+        "Availability": "Stock and production-batch booking"
+      },
+      "members": [
+        "GMCC PH135X1C-4P3 — 1 HP",
+        "GMCC PH150X1C-4P3 — 1.5 HP",
+        "GMCC PH190X1C family — 2 HP class",
+        "GMCC PH230X-class — 2.5–3 HP"
+      ],
+      "intro": "The GMCC PH series covers the most heavily traded rotary compressors in the 0.75–3 HP band. For distributors, this family matters because it maps directly onto the residential split market: whatever capacity your local brands sell, there is usually a PH-series equivalent behind it.",
+      "highlights": [
+        "One platform, multiple capacities — simplifies spares planning",
+        "R410A and R32 versions for current-efficiency markets",
+        "Fixed-speed and inverter options available",
+        "Stable monthly output for contract buyers"
+      ],
+      "applications": [
+        "Residential split air conditioners",
+        "Window and portable units",
+        "Light commercial wall-mounted systems"
+      ],
+      "compatibility": "Tell us the target capacity, refrigerant and grid specification and we will identify the exact series member to quote.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "3–10 working days",
+        "price": "Volume tiering available"
+      }
+    },
+    {
+      "slug": "copeland-zr-series",
+      "kind": "series",
+      "brand": "Copeland",
+      "model": "ZR / ZP Series (2–15 HP scroll)",
+      "category": "scroll",
+      "popular": true,
+      "hp": "2–15 HP",
+      "refrigerant": "R410A / R407C / R32",
+      "type": "Scroll series",
+      "specs": {
+        "Capacity range": "≈ 7 – 42 kW",
+        "Refrigerants": "R410A, R407C, R32",
+        "Power supply": "220–420 V, 1 Ph / 3 Ph, 50/60 Hz",
+        "Motor type": "Fixed speed scroll",
+        "Typical use": "Commercial splits, heat pumps, chillers, packaged units",
+        "Availability": "Stock, parallel-import and replacement options"
+      },
+      "members": [
+        "Copeland ZP24K3E-PFJ-522 — 2 HP class",
+        "Copeland ZR34K3-PFJ-522 — 3 HP class",
+        "Copeland ZR48 / ZR61 — mid-range commercial",
+        "Copeland ZR72 and above — large packaged units"
+      ],
+      "intro": "Copeland's ZR and ZP scroll families are the reference point for commercial AC scroll compressors worldwide. Buyers usually arrive with a specific part number, so we maintain a live cross-reference table and can quote both the exact unit and a verified alternative.",
+      "highlights": [
+        "Full cross-reference support for retrofit and service work",
+        "Original units and qualified alternatives both available",
+        "Single and three-phase versions across most of the range",
+        "Technical datasheets and wiring diagrams supplied with quotes"
+      ],
+      "applications": [
+        "Commercial split and ducted systems",
+        "Heat pumps and VRF outdoor modules",
+        "Water chillers and process cooling"
+      ],
+      "compatibility": "Send the existing part number and we will return a matched quote, including any differences in mounting or electrical specification.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "5–12 working days",
+        "price": "Volume tiering available"
+      }
+    },
+    {
+      "slug": "aspera-nek-series",
+      "kind": "series",
+      "brand": "Aspera / Embraco",
+      "model": "NEK Series (1/6–1/3 HP LBP)",
+      "category": "reciprocating",
+      "popular": true,
+      "hp": "1/6–1/3 HP",
+      "refrigerant": "R134a / R600a",
+      "type": "Hermetic reciprocating series",
+      "specs": {
+        "Capacity range": "≈ 90 – 200 W @ -23.3 °C",
+        "Refrigerants": "R134a, R600a",
+        "Power supply": "220–240 V, 1 Ph, 50/60 Hz",
+        "Motor type": "RSIR / CSIR",
+        "Back pressure": "LBP (low back pressure)",
+        "Typical use": "Freezers, refrigerators, display freezers"
+      },
+      "members": [
+        "Aspera NEK6213Z — 1/3 HP LBP",
+        "Aspera NEK2134GK — 1/3 HP compact LBP",
+        "Aspera NEK-series below 1/4 HP — compact cabinets"
+      ],
+      "intro": "The NEK platform has been fitted to millions of household and commercial freezers, which makes it the bread-and-butter category for refrigeration spare-part distributors. We keep the common members in stock and can book production capacity for regular volume buyers.",
+      "highlights": [
+        "Huge installed base means steady replacement demand",
+        "R134a and R600a executions available",
+        "Compact footprint for modern cabinet designs",
+        "Palletized export packing as standard"
+      ],
+      "applications": [
+        "Household freezers and refrigerator-freezers",
+        "Commercial display freezers",
+        "Ice cream cabinets"
+      ],
+      "compatibility": "We cross-reference by nameplate photo — send a picture of the original unit and we will identify the correct match.",
+      "buying": {
+        "warranty": "Tested & inspected before dispatch",
+        "lead": "3–7 working days",
+        "price": "Volume tiering available"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "slug": "rotary-vs-scroll-compressors",
+      "title": "Rotary vs Scroll Compressors: Which One Should You Buy?",
+      "date": "2026-10-14",
+      "description": "A buyer-side comparison of rotary and scroll compressors: efficiency, noise, cost, application range and how to choose for your project.",
+      "body": [
+        {
+          "h": "The short answer",
+          "p": "Below roughly 3 HP, rotary compressors usually win on cost. Above that, scroll compressors win on efficiency, noise and service life. The overlap zone between 2 HP and 3 HP is where your duty cycle should decide."
+        },
+        {
+          "h": "How each design works",
+          "p": "A rotary compressor uses a rolling piston inside a cylinder to compress refrigerant with one continuous motion. A scroll compressor traps refrigerant between two interleaving spirals and squeezes it toward the centre. Fewer moving parts in the scroll design generally means less vibration and fewer wear points."
+        },
+        {
+          "h": "Efficiency and operating cost",
+          "p": "Scroll compressors hold higher volumetric efficiency, especially under part-load conditions where systems cycle frequently. In a commercial space that runs 10 hours a day, the efficiency difference pays back the extra purchase price over a season or two."
+        },
+        {
+          "h": "Noise and vibration",
+          "p": "If the outdoor unit sits next to a bedroom or a hotel balcony, scroll is the safer choice. Rotary units are quiet at low speed but can transmit more vibration through the copper lines at high load."
+        },
+        {
+          "h": "Replacement and service reality",
+          "p": "Rotary replacements are cheaper and more widely stocked in residential markets; scroll replacements cost more but are standard practice in commercial service. Always check rotation direction on three-phase scroll units before startup."
+        },
+        {
+          "h": "Decision checklist",
+          "p": "Capacity below 2 HP with budget pressure → rotary. Capacity above 3 HP, long running hours or noise-sensitive location → scroll. Anything in between → ask us for models from both families and compare total cost over the service life."
+        }
+      ]
+    },
+    {
+      "slug": "how-to-read-compressor-model-numbers",
+      "title": "How to Read a Compressor Model Number (A Practical Decoder)",
+      "date": "2026-10-14",
+      "description": "Learn to decode GMCC, Copeland, Embraco and Maneurop model numbers so you can identify the right replacement compressor from a nameplate.",
+      "body": [
+        {
+          "h": "Why decoding matters",
+          "p": "Buyers rarely know the exact part number they need. They have a nameplate photo, a capacity and a refrigerant. Knowing how each brand encodes horsepower, refrigerant and voltage lets you identify the right unit in minutes instead of days."
+        },
+        {
+          "h": "GMCC rotary (PH series)",
+          "p": "The PH prefix identifies the rotary platform; the following numbers indicate the displacement or capacity class, X denotes the refrigerant design, and the suffix group encodes voltage, frequency and motor arrangement. Practically: PH135 ≈ 1 HP, PH150 ≈ 1.5 HP, both R410A. The trailing -4P3 style suffix usually encodes supply and phase.",
+          "note": "Suffix meanings can vary by generation — we verify the exact configuration against the batch datasheet for every supply."
+        },
+        {
+          "h": "Copeland scroll (ZR / ZP)",
+          "p": "The letter pair indicates the family (ZR for R410A scroll, ZP for A/C scroll variants), the number approximates the nominal capacity in thousands of BTU/h, and the remaining letters define motor protection, phase and the electrical code. ZP24 ≈ 24,000 BTU/h (2 HP); ZR34 ≈ 36,000 BTU/h (3 HP)."
+        },
+        {
+          "h": "Embraco / Aspera hermetic units",
+          "p": "The first digits encode capacity class, the following letters encode the application range: N denotes standard efficiency, E denotes higher efficiency. The back-pressure class is the critical part — LBP for freezers, MBP for fridges, HBP for beverage coolers and display cases."
+        },
+        {
+          "h": "Maneurop MT scroll",
+          "p": "MT followed by a number gives the displacement class; the next letters indicate motor version and application. MT64 indicates a mid-size unit suited to cold rooms and medium-temperature condensing units."
+        },
+        {
+          "h": "Still unsure?",
+          "p": "Send us a clear photo of the nameplate plus the refrigerant and supply voltage. We cross-reference it and return the correct part number with a quotation — no obligation."
+        }
+      ]
+    }
+  ]
+}
