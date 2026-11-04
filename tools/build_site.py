@@ -814,6 +814,7 @@ def build_model(data, m):
         <h3 style="margin-bottom:12px">Send us your model list</h3>
         <form class="form inquiry-form" data-endpoint="{esc(s['inquiry_endpoint'])}" data-email="{esc(s['email'])}" novalidate>
           <input type="hidden" name="model" value="{esc(m['brand'])} {esc(m['model'])}">
+          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
           <label>Quantity
             <input type="number" name="quantity" min="1" placeholder="e.g. 50" style="width:100%;margin-top:6px">
           </label>
@@ -897,6 +898,7 @@ def build_static(data, key):
       <h2>Send us your model list</h2>
       <p>Tell us what you need and we will come back with availability, price, lead time and freight. The more specific your list, the faster we can help — and for regular volume we will keep the price competitive.</p>
       <form class="form inquiry-form" data-endpoint="{esc(s['inquiry_endpoint'])}" data-email="{esc(s['email'])}" novalidate>
+        <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
         <div class="row">
           <label>Name<input type="text" name="name" required placeholder="Full name"></label>
           <label>Company<input type="text" name="company" placeholder="Company"></label>
