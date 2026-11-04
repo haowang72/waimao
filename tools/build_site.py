@@ -336,7 +336,6 @@ def nav(active="", base=""):
     out = []
     for href, label, key in [
         ("index.html", "Home", "index"),
-        ("knowledge/index.html", "Guides", "knowledge"),
     ]:
         cls = "active" if active == key else ""
         out.append('<a class="' + cls + '" href="' + base + href + '">' + label + "</a>")
@@ -453,7 +452,6 @@ def footer(data, base=""):
     <div>
       <h4>Company</h4>
         <ul>
-          <li><a href="{base}knowledge/index.html">Buyer guides</a></li>
           <li><a href="{base}contact.html">Contact us</a></li>
         </ul>
     </div>
@@ -924,60 +922,6 @@ def build_static(data, key):
     return head(data, p["title"], p["desc"], p["kw"], key + ".html") + page_shell(data, body, key)
 
 
-def build_knowledge_index(data):
-    s = data["site"]
-    title = "Buyer Guides — How to Choose & Replace AC Compressors | Baizly"
-    desc = "Practical guides for compressor buyers: choosing between rotary and scroll, decoding model numbers, planning bulk orders and inspecting units before shipment."
-    items = "".join(
-        f"""<a class="card" href="{a['slug']}.html" style="display:block">
-      <h3>{esc(a['title'])}</h3>
-      <p class="small">{esc(a['description'])}</p>
-      <div class="small muted">{esc(a['date'])}</div>
-    </a>"""
-        for a in data["articles"]
-    )
-    base = "../"
-    body = f"""{header(data, 'knowledge', base)}
-<div class="wrap"><nav class="breadcrumbs"><a href="{base}index.html">Home</a> / <span>Guides</span></nav></div>
-<section class="page-head"><div class="wrap"><h1>Buyer guides</h1><p class="muted" style="max-width:70ch">Practical reference material written for distributors and contractors who buy compressors by the pallet.</p></div></section>
-<section class="section" style="padding-top:0"><div class="wrap"><div class="grid grid-2">{items}</div></div></section>
-{cta_block(data, 'Still deciding?', 'Send your application details and we will shortlist the right models for you and tell you what we can hold.', base)}
-{footer(data, base)}"""
-    return head(data, title, desc, "compressor buying guide, how to choose compressor, compressor model decoder", "knowledge/index.html", base) + page_shell(data, body, "knowledge", "", base)
-
-
-def build_article(data, a):
-    s = data["site"]
-    title = a["title"] + " | Baizly"
-    sections = []
-    for sec in a["body"]:
-        sections.append(f"<h2>{esc(sec['h'])}</h2><p>{esc(sec['p'])}</p>")
-        if sec.get("note"):
-            sections.append(f"<pre class='note'>{esc(sec['note'])}</pre>")
-    body_html = "".join(sections)
-    ld = ('<script type="application/ld+json">' + json.dumps({
-        "@context": "https://schema.org", "@type": "Article",
-        "headline": a["title"], "description": a["description"], "datePublished": a["date"],
-        "author": {"@type": "Organization", "name": s["brand"]},
-    }, ensure_ascii=False) + "</script>")
-    base = "../"
-    body = f"""{header(data, 'knowledge', base)}
-<div class="wrap"><nav class="breadcrumbs"><a href="{base}index.html">Home</a> / <a href="{base}knowledge/index.html">Guides</a> / <span>{esc(a['title'])}</span></nav></div>
-<section class="page-head"><div class="wrap"><h1>{esc(a['title'])}</h1><div class="post-meta">{esc(s['brand'])} · Published {esc(a['date'])}</div></div></section>
-<section class="section" style="padding-top:0">
-  <div class="wrap layout-side">
-    <div class="article-body">{body_html}
-      <p style="margin-top:32px"><a class="btn btn-primary" href="{base}contact.html">Ask our team {ICONS['arrow']}</a></p>
-    </div>
-    <aside>
-      <div class="panel"><h3>More useful pages</h3><ul>{''.join('<li><a href="../catalog.html">Full model catalog</a></li><li><a href="../categories/rotary.html">Rotary range</a></li><li><a href="../categories/scroll.html">Scroll range</a></li><li><a href="../categories/reciprocating.html">Refrigeration range</a></li>')}</ul></div>
-      <div class="panel"><h3>Quick contact</h3><p class="small"><a href="mailto:{esc(s['email'])}">{esc(s['email'])}</a><br>WhatsApp {esc(s['whatsapp'])}</p><p style="margin:0"><a class="btn btn-accent" href="../contact.html">Contact us</a></p></div>
-    </aside>
-  </div>
-</section>
-{footer(data, base)}"""
-    return head(data, title, a["description"], "compressor buying guide, HVAC compressor selection", "knowledge/" + a["slug"] + ".html", base, "article") + page_shell(data, body, "knowledge", ld, base)
-
 
 def build_404(data):
     s = data["site"]
@@ -1025,10 +969,7 @@ def write_keyword_doc(data):
     for k in ["AC compressor wholesale", "air conditioner compressor supplier China", "buy compressors in bulk",
               "compressor factory direct price", "refrigeration compressor export"]:
         lines.append(f"- {k}")
-    lines += ["", "## 四、知识内容词（Guides 承接信息型流量）", ""]
-    for a in data["articles"]:
-        lines.append(f"- knowledge/{a['slug']}.html — {a['title']}")
-    lines += ["", "## 五、后续扩词方向（待补关键词词格，按此模板扩型号页）", "",
+    lines += ["", "## 四、后续扩词方向（待补关键词词格，按此模板扩型号页）", "",
               "- `[brand] [model] cross reference` — 替换对照，转化率最高\n"
               "- `[model] equivalent / replacement for [original brand]`\n"
               "- `[hp] hp [refrigerant] compressor [application]`（如 1.5 hp r410a compressor split unit）\n"
@@ -1044,7 +985,6 @@ def main():
     (SITE / "assets" / "img").mkdir(parents=True, exist_ok=True)
     (SITE / "categories").mkdir(exist_ok=True)
     (SITE / "models").mkdir(exist_ok=True)
-    (SITE / "knowledge").mkdir(exist_ok=True)
     (SITE / "assets" / "css" / "style.css").write_text(CSS, encoding="utf-8")
     (SITE / "assets" / "js" / "app.js").write_text(JS, encoding="utf-8")
 
@@ -1061,18 +1001,13 @@ def main():
     for key in ["contact"]:
         (SITE / (key + ".html")).write_text(build_static(data, key), encoding="utf-8")
         urls.append(key + ".html")
-    (SITE / "knowledge" / "index.html").write_text(build_knowledge_index(data), encoding="utf-8")
-    urls.append("knowledge/index.html")
-    for a in data["articles"]:
-        (SITE / "knowledge" / (a["slug"] + ".html")).write_text(build_article(data, a), encoding="utf-8")
-        urls.append("knowledge/" + a["slug"] + ".html")
     (SITE / "404.html").write_text(build_404(data), encoding="utf-8")
 
     write_sitemap(data, urls)
     write_robots(data)
     write_keyword_doc(data)
     print(f"OK: {len(urls)} pages -> {SITE}")
-    print("models:", len(data["models"]), "| categories:", len(data["categories"]), "| articles:", len(data["articles"]))
+    print("models:", len(data["models"]), "| categories:", len(data["categories"]))
 
 
 if __name__ == "__main__":
