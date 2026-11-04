@@ -12,3 +12,6 @@ __pycache__/
 Thumbs.db
 Thumbs.db*
 ehthumbs.db
+
+# wrangler 本地缓存（非源码）
+site/.wrangler/
