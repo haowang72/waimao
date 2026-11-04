@@ -356,7 +356,6 @@ def topbar(data, base=""):
     <span class="tb-links">
       <a href="tel:{s['phone'].replace(' ', '')}">Tel</a>
       <a href="https://wa.me/{s['whatsapp'].replace(' ', '').replace('+', '')}" rel="nofollow noopener">WhatsApp</a>
-      <a href="https://t.me/{esc(s['telegram'])}" rel="nofollow noopener">Telegram</a>
       <a href="mailto:{esc(s['email'])}">Email</a>
     </span>
   </div>
@@ -439,7 +438,6 @@ def footer(data, base=""):
       <p class="small">
         <a href="tel:{s['phone'].replace(' ', '')}">Tel: {esc(s['phone'])}</a><br>
         <a href="https://wa.me/{s['whatsapp'].replace(' ', '').replace('+', '')}" rel="nofollow noopener">WhatsApp: {esc(s['whatsapp'])}</a><br>
-        <a href="https://t.me/{esc(s['telegram'])}" rel="nofollow noopener">Telegram: {esc(s['telegram'])}</a><br>
         WeChat: {esc(s['wechat'])}<br>
         <a href="mailto:{esc(s['email'])}">{esc(s['email'])}</a>
       </p>
@@ -535,7 +533,7 @@ def build_index(data):
         for t, d, i in why
     )
     steps = [
-        ("Send us your model list", "Email, WhatsApp or Telegram the brands, models and target quantities.",),
+        ("Send us your model list", "Email or WhatsApp the brands, models and target quantities.",),
         ("We reply within 24 h", "Availability, price, lead time, packing and freight to your port.",),
         ("Confirm &amp; pay deposit", "T/T 30% deposit, 70% before shipment. L/C available for volume.",),
         ("Inspect, ship &amp; track", "Pre-shipment testing, photos of loading, tracking until arrival.",),
@@ -570,7 +568,6 @@ def build_index(data):
         <a class="btn btn-accent" href="contact.html">Contact Us {ICONS['arrow']}</a>
         <span class="hero-direct">or reach us directly:
           <a href="https://wa.me/{s['whatsapp'].replace(' ', '').replace('+', '')}" rel="nofollow noopener">WhatsApp</a> &middot;
-          <a href="https://t.me/{esc(s['telegram'])}" rel="nofollow noopener">Telegram</a> &middot;
           <a href="mailto:{esc(s['email'])}">Email</a></span>
       </div>
     </div>
@@ -829,7 +826,7 @@ def build_model(data, m):
           <button class="btn btn-accent" type="submit">Send message</button>
           <span class="form-status" role="status" aria-live="polite"></span>
         </form>
-        <p class="small muted" style="margin:12px 0 0">We reply within 24 hours, Mon&ndash;Sat. Or message us on <a href="https://wa.me/{s['whatsapp'].replace(' ', '').replace('+', '')}" rel="nofollow noopener">WhatsApp</a> / <a href="https://t.me/{esc(s['telegram'])}" rel="nofollow noopener">Telegram</a>.</p>
+        <p class="small muted" style="margin:12px 0 0">We reply within 24 hours, Mon&ndash;Sat. Or message us on <a href="https://wa.me/{s['whatsapp'].replace(' ', '').replace('+', '')}" rel="nofollow noopener">WhatsApp</a>.</p>
       </div>
       <div class="panel">
         <h3>Trade terms</h3>
@@ -859,7 +856,7 @@ def build_static(data, key):
     pages = {
         "contact": {
             "title": "Contact Us — Second-Hand Compressor Recycling in Beijing | Baizly",
-            "desc": "Family-run used AC compressor recycling source in Beijing, China. Reach us by phone, WhatsApp, Telegram, WeChat or email. Inspect-first-then-ship, reply within 24 hours.",
+            "desc": "Family-run used AC compressor recycling source in Beijing, China. Reach us by phone, WhatsApp, WeChat or email. Inspect-first-then-ship, reply within 24 hours.",
             "kw": "contact compressor supplier China, used ac compressor supplier, compressor recycling Beijing",
             "h1": "Talk to us directly",
         },
@@ -872,14 +869,14 @@ def build_static(data, key):
         <p style="color:#fff;margin:0;font-size:var(--fs-md)">{esc(s['invite'])}</p>
       </div>
       <p>Pick whichever channel suits you — a phone call, a chat message or an email all reach the same small team. We support pre-shipment photo and video selection and an inspect-first-then-ship model, so you see exactly what you get before it leaves our warehouse.</p>
-      <p class="small muted" style="margin:0 0 8px">Language: phone, WeChat and WhatsApp are answered in <strong>Chinese and basic English</strong>; Telegram and email handle <strong>full English</strong> enquiries.</p>
+      <p class="small muted" style="margin:0 0 8px">Language: phone, WeChat and WhatsApp are answered in <strong>Chinese and basic English</strong>; email handles <strong>full English</strong> enquiries.</p>
       <h2>How to reach us</h2>
       <div class="grid grid-2" style="gap:24px;margin:8px 0 24px">
         <div class="panel">
           <h3>Contact channels</h3>
           <ul class="spec-list">
             <li><span>1 &middot; Phone</span><a href="tel:{s['phone'].replace(' ', '')}">{esc(s['phone'])}</a></li>
-            <li><span>2 &middot; Chat apps</span><a href="https://wa.me/{s['whatsapp'].replace(' ', '').replace('+', '')}" rel="nofollow noopener">WhatsApp</a> &middot; <a href="https://t.me/{esc(s['telegram'])}" rel="nofollow noopener">Telegram</a> &middot; WeChat: {esc(s['wechat'])}</li>
+            <li><span>2 &middot; Chat apps</span><a href="https://wa.me/{s['whatsapp'].replace(' ', '').replace('+', '')}" rel="nofollow noopener">WhatsApp</a> &middot; WeChat: {esc(s['wechat'])}</li>
             <li><span>3 &middot; Email</span><a href="mailto:{esc(s['email'])}">{esc(s['email'])}</a></li>
             <li><span>Location</span>{esc(s['location'])}</li>
             <li><span>Hours</span>{esc(s['hours'])}</li>
@@ -893,13 +890,8 @@ def build_static(data, key):
               <div class="qr-pending" style="display:none">QR pending — drop qr-whatsapp.png into assets/img/</div>
               <p class="small">WhatsApp: {esc(s['whatsapp'])}</p>
             </div>
-            <div class="qr-cell">
-              <img class="qr" src="{base}assets/img/qr-telegram.png" alt="Telegram QR" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
-              <div class="qr-pending" style="display:none">QR pending — drop qr-telegram.png into assets/img/</div>
-              <p class="small">Telegram: @{esc(s['telegram'])}</p>
-            </div>
           </div>
-          <p class="small muted">New to these apps? Download WhatsApp or Telegram from your app store, then scan our code to add us.</p>
+          <p class="small muted">New to WhatsApp? Download it from your app store, then scan our code to add us.</p>
         </div>
       </div>
       <h2>Send us your model list</h2>
@@ -917,7 +909,7 @@ def build_static(data, key):
         <label>Notes<textarea name="notes" placeholder="Incoterm, target delivery, inspection requirements"></textarea></label>
         <div class="form-actions"><button class="btn btn-accent" type="submit">Send message</button><span class="form-status" role="status" aria-live="polite"></span></div>
       </form>
-      <p class="notice">Prefer chat? Send the same list on WhatsApp or Telegram and we will answer there. We reply within 24 hours, Mon&ndash;Sat. If the form cannot reach our server it opens your email app with the message ready to send.</p>
+      <p class="notice">Prefer chat? Send the same list on WhatsApp and we will answer there. We reply within 24 hours, Mon&ndash;Sat. If the form cannot reach our server it opens your email app with the message ready to send.</p>
     """
     faq_block = ""
     body = f"""{header(data, key)}
