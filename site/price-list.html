@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baizly — Used Compressor Price List (Popular Models)</title>
+<style>
+:root{
+  --ink:#0f2740; --ink2:#3d5266; --ink3:#6b7f92; --line:#dfe5ec; --line2:#eef2f6;
+  --bg:#f6f8fa; --paper:#fff; --accent:#c8a15a; --warn:#a86412;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);
+  font:13px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+/* Email greeting: plain text outside the quotation sheet, deliberately
+   separated from the quotation layout (no card, no table, no notice styling). */
+.greeting{max-width:1240px;margin:26px auto 18px;padding:0 4px;
+  font-size:14px;line-height:1.7;color:#0f2740}
+.greeting p{margin:0 0 7px}
+.greeting p:last-child{margin-bottom:0}
+
+.sheet{max-width:1240px;margin:0 auto 60px;background:var(--paper);border:1px solid var(--line);
+  box-shadow:0 1px 3px rgba(15,39,64,.06),0 10px 30px rgba(15,39,64,.05);padding:0 0 30px}
+
+.hd{padding:30px 38px 22px;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;gap:32px;align-items:flex-start}
+.hd .co{font-size:18px;font-weight:700;letter-spacing:.4px}
+.hd .co-sub{font-size:12px;color:var(--ink2);margin-top:3px;letter-spacing:.3px}
+.hd .co-meta{font-size:11.5px;color:var(--ink3);margin-top:8px;line-height:1.75}
+.hd .co-meta a{color:var(--ink2);text-decoration:none;border-bottom:1px dotted #c9d3de}
+.hd .co-meta a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.hd .ttl{text-align:right;flex:0 0 auto}
+.hd .ttl h1{margin:0;font-size:18px;letter-spacing:.4px;font-weight:700;text-transform:none}
+.hd .ttl .sub{font-size:11.5px;color:var(--ink3);letter-spacing:1.2px;text-transform:uppercase;margin-top:4px}
+.hd .ttl .meta{margin-top:14px;font-size:11.5px;color:var(--ink2);line-height:1.9}
+.hd .ttl .meta b{display:inline-block;min-width:74px;color:var(--ink3);font-weight:500}
+
+.notice{margin:22px 38px 0;padding:11px 16px;background:#fffdf6;border:1px solid #ecdfc4;border-left:3px solid var(--accent)}
+.notice ol{margin:0;padding-left:17px;font-size:11.8px;color:var(--ink2);line-height:1.72}
+.notice li{margin:0 0 3px;padding-left:2px}
+.notice li:last-child{margin-bottom:0}
+.notice li b{color:var(--ink);font-weight:600}
+
+.tb{margin:16px 38px 0;display:flex;justify-content:flex-end;align-items:center;font-size:12px}
+.tb .count{font-size:11.5px;color:var(--ink3)}
+
+.tw{margin:0 38px;overflow-x:auto}
+table.q{width:100%;border-collapse:collapse;margin-top:9px;font-variant-numeric:tabular-nums}
+table.q thead th{background:#eef2f6;color:var(--ink);font-size:10.5px;font-weight:700;letter-spacing:.5px;
+  text-transform:uppercase;text-align:left;padding:9px 8px;border-bottom:1.5px solid #c9d5e0;line-height:1.35}
+table.q thead th.n{text-align:right}
+table.q thead th.idx{width:34px}
+table.q tbody td{padding:7px 8px;border-bottom:1px solid var(--line2);font-size:12px;vertical-align:middle}
+table.q tbody tr:nth-child(even){background:#fafbfc}
+table.q tbody tr:hover{background:#f3f7fb}
+td.idx{color:#a9b7c4;font-size:10.5px;text-align:right}
+td.brand{color:var(--ink2);font-size:11.5px;white-space:nowrap}
+td.model{white-space:normal;word-break:break-word}
+/* Compact default widths for the leading columns. These are plain rules,
+   not @media, so they also hold in mail clients that drop responsive CSS:
+   the model column stays narrow and the price column sits near the left. */
+table.q th:nth-child(2),table.q td.brand{width:88px}
+table.q th:nth-child(3),table.q td.model{width:138px}
+td.model .m{display:inline-block;max-width:130px;word-break:break-word;vertical-align:top;
+  font-weight:650;letter-spacing:.2px}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.addon{color:var(--warn);font-weight:600;font-size:11.5px}
+
+.notes{margin:14px 38px 0;padding:10px 15px;background:#f7f9fb;border-left:3px solid #c8a15a;
+  font-size:11.3px;color:var(--ink2);line-height:1.72}
+.notes p{margin:0 0 4px}
+.notes p:last-child{margin-bottom:0}
+.notes b{color:var(--ink);font-weight:600}
+
+.terms{margin:20px 38px 0}
+.term{border:1px solid var(--line);border-radius:4px;padding:14px 18px;background:#fff}
+.term h3{margin:0 0 14px;font-size:12.5px;letter-spacing:.3px;color:var(--ink);font-weight:700}
+.steps{list-style:none;counter-reset:step;margin:0;padding:0}
+.steps li{counter-increment:step;position:relative;padding:0 0 12px 38px;margin:0 0 12px;border-bottom:1px solid var(--line2)}
+.steps li:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.steps li::before{content:counter(step);position:absolute;left:0;top:0;width:24px;height:24px;border-radius:50%;
+  background:#faf3e6;color:#a86412;font-size:11px;font-weight:700;text-align:center;line-height:24px}
+.steps .st{margin:1px 0 3px;font-size:11.8px;font-weight:700;color:var(--ink)}
+.steps p{margin:0;font-size:11.2px;color:var(--ink2);line-height:1.7}
+.steps .pay{display:inline-block;margin-left:7px;padding:1px 8px;border-radius:999px;
+  background:#faf3e6;color:#a86412;font-size:10.5px;font-weight:600}
+
+.warn{margin:14px 38px 0;padding:9px 15px;background:#fff6f4;border:1px solid #f0d3cc;border-left:3px solid #c0553b;
+  font-size:11.5px;color:#8a3b28;line-height:1.65}
+.warn b{font-weight:700}
+
+.cta{margin:18px 38px 0;padding:13px 18px;border:1.5px solid var(--accent);background:#fffaf0;border-radius:4px;
+  font-size:13px;font-weight:600;color:var(--ink);text-align:center;line-height:1.7;box-shadow:0 1px 2px rgba(15,39,64,.05)}
+.cta b{color:#a86412}
+
+.ft{margin:26px 38px 0;border-top:2px solid var(--ink);padding-top:14px;display:flex;justify-content:space-between;
+  gap:20px;font-size:11.3px;color:var(--ink2);line-height:1.8}
+.ft b{color:var(--ink)}
+
+/* Founder's note: a deliberately separate personal-letter block at the very
+   end of the quotation. Literal colour values instead of CSS variables so it
+   keeps its look in mail clients that drop custom properties; no flex/grid. */
+.letter{margin:22px 38px 0;padding:20px 26px 18px;background:#fcfaf5;
+  border:1px solid #e9dfc8;border-left:3px solid #c8a15a;border-radius:5px;
+  font-family:Georgia,"Times New Roman",serif;color:#33475b}
+.letter .lb{margin:0 0 13px;padding-bottom:9px;border-bottom:1px solid #e9dfc8;
+  font:600 12px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  letter-spacing:.3px;color:#a86412}
+.letter p{margin:0 0 11px;font-size:12.6px;line-height:1.8}
+.letter .sig{margin-top:16px;padding-top:13px;border-top:1px solid #e9dfc8}
+.letter .sig p{margin:0 0 3px;font-size:12.4px;line-height:1.65}
+.letter .sig p:last-child{margin-bottom:0}
+.letter .sig .nm{font-weight:700;font-size:13.5px;color:#0f2740;letter-spacing:.3px}
+.letter .sig .role{font-size:11.5px;color:#6b7f92}
+
+/* Narrow screens / mobile mail apps: keep #, Model and the wholesale price
+   inside the first viewport. Desktop and print layouts are untouched. */
+@media screen and (max-width:640px){
+  .greeting{margin:14px 12px 12px;padding:0;font-size:13px;line-height:1.6}
+  .greeting p{margin:0 0 5px}
+  .sheet{margin:0 8px 26px;padding:0 0 18px}
+  .hd{padding:16px 12px 12px;flex-direction:column;gap:12px}
+  .hd .co{font-size:15px}
+  .hd .co-sub{font-size:11px}
+  .hd .ttl{text-align:left}
+  .hd .ttl h1{font-size:15px;letter-spacing:0}
+  .hd .ttl .meta{margin-top:8px}
+  .notice,.notes{margin:12px 12px 0;padding:9px 12px}
+  .notice ol{font-size:10.6px;line-height:1.6}
+  .notes{font-size:10.6px}
+  .tb,.tw{margin-left:12px;margin-right:12px}
+  .tb{margin-top:12px}
+  table.q{margin-top:6px}
+  table.q thead th{padding:6px 4px;font-size:8.6px;letter-spacing:0}
+  table.q tbody td{padding:5px 4px;font-size:10.5px}
+  /* "Brand" is Copeland on all 50 rows: hide it on narrow screens only */
+  table.q th:nth-child(2),table.q td:nth-child(2){display:none}
+  td.idx{font-size:9.5px}
+  td.model{font-size:10.2px}
+  td.model .m{font-size:10.2px;letter-spacing:0}
+  td.n{font-size:10.5px}
+  td.addon{font-size:10px}
+  .terms{margin:14px 12px 0}
+  .term{padding:11px 13px}
+  .term h3{font-size:11.5px;margin-bottom:10px}
+  .steps li{padding-left:32px;padding-bottom:9px;margin-bottom:9px}
+  .steps .st{font-size:11px}
+  .steps p{font-size:10.4px;line-height:1.6}
+  .warn,.cta{margin-left:12px;margin-right:12px}
+  .warn{margin-top:12px}
+  .cta{margin-top:12px;font-size:11.5px;padding:10px 12px}
+  .letter{margin:14px 12px 0;padding:14px 14px 12px}
+  .letter .lb{font-size:11px;margin-bottom:10px}
+  .letter p{font-size:11.6px;line-height:1.7}
+  .letter .sig{margin-top:12px;padding-top:10px}
+  .letter .sig p{font-size:11.4px}
+  .letter .sig .nm{font-size:12.5px}
+  .letter .sig .role{font-size:10.5px}
+  .ft{margin:18px 12px 0;flex-direction:column;gap:4px;font-size:10.5px}
+}
+
+@media print{
+  @page{size:A4 landscape;margin:10mm 9mm}
+  body{background:#fff;font-size:8.6pt}
+  .greeting{max-width:none;margin:0 0 6px;padding:0;font-size:8.6pt;line-height:1.35}
+  .greeting p{margin:0 0 2px}
+  .sheet{max-width:none;margin:0;border:0;box-shadow:none;padding:0}
+  .tb{margin:6px 0 0}
+  .hd{padding:0 0 8px}
+  .hd .co-meta a{color:inherit;border:0}
+  .notice{margin:8px 0 0;padding:6px 10px;font-size:7.4pt;line-height:1.5;break-inside:avoid;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .notice ol{font-size:7.4pt;line-height:1.5}
+  .tw{margin:0;overflow:visible}
+  table.q{margin-top:5px}
+  table.q thead{display:table-header-group}
+  table.q thead th{background:#eef2f6 !important;font-size:7pt;padding:5px 4px;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  table.q tbody td{font-size:7.2pt;padding:2.6px 4px;line-height:1.26}
+  table.q tbody tr:nth-child(even){background:#fafbfc !important;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  tr{break-inside:avoid}
+  .notes{margin:6px 0 0;padding:5px 9px;font-size:7pt;line-height:1.45;break-inside:avoid;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .terms{margin:8px 0 0;break-inside:avoid}
+  .term{padding:7px 10px}
+  .term h3{font-size:8pt;margin-bottom:7px}
+  .steps li{padding-bottom:5px;margin-bottom:5px;break-inside:avoid}
+  .steps .st{font-size:7.4pt}
+  .steps p{font-size:7pt;line-height:1.4}
+  .warn{margin:6px 0 0;padding:5px 9px;font-size:7.2pt;break-inside:avoid;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .cta{margin:8px 0 0;padding:6px 10px;font-size:8.2pt;line-height:1.5;break-inside:avoid;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .letter{margin:8px 0 0;padding:8px 12px;break-inside:avoid;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .letter .lb{font-size:7pt;margin-bottom:5px;padding-bottom:4px}
+  .letter p{font-size:7.2pt;line-height:1.42;margin-bottom:5px}
+  .letter .sig{margin-top:6px;padding-top:5px}
+  .letter .sig p{font-size:7.2pt;line-height:1.4}
+  .letter .sig .nm{font-size:8pt}
+  .letter .sig .role{font-size:6.8pt}
+  .ft{margin:10px 0 0;padding-top:8px;font-size:7.4pt;break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div style="max-width:1240px;margin:0 auto;padding:14px 4px 0;display:flex;justify-content:space-between;align-items:center;font-size:13px">
+  <a href="index.html" style="color:#0f2740;text-decoration:none;font-weight:700;letter-spacing:.4px">Baizly</a>
+  <a href="contact.html" style="color:#a86412;text-decoration:none;font-weight:600">Contact us</a>
+</div>
+<div class="greeting">
+  <p>Hi</p>
+  <p>Good day.</p>
+  <p>Please see our current quotation list for used Copeland compressors below.</p>
+  <p>We also work with other brands including Bitzer, Bristol, Tecumseh, Carlyle, Trane, Carrier, and Danfoss.</p>
+  <p>If you need to check the price for any specific model, just let me know and I'll get back to you with the details.</p>
+</div>
+
+<div class="sheet">
+
+  <div class="hd">
+    <div>
+      <div class="co">BEIJING SHANGXIAOBAI TECHNOLOGY CO., LTD.</div>
+      <div class="co-sub">Used &amp; refurbished refrigeration compressors - sourcing &amp; export</div>
+      <div class="co-meta">
+        Beijing, China<br>
+        Hao Wang &middot; <a href="mailto:haow@wqsxb.com">haow@wqsxb.com</a><br>
+        WhatsApp <a href="https://wa.me/8619176957936" target="_blank" rel="noopener">+86 191 7695 7936</a>
+      </div>
+    </div>
+    <div class="ttl">
+      <h1>Used Compressor Price List &mdash; Popular Models</h1>
+      <div class="meta">
+        <div><b>Ref.</b> SQ-2026-1108</div>
+        <div><b>Date</b> <span id="q-date">&mdash;</span></div>
+        <div><b>Currency</b> USD</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="notice">
+    <ol>
+      <li><b>All prices shown are preliminary estimates based on current stock and may vary by model and quantity.</b></li>
+      <li>Some high-demand models are in limited supply, and larger quantities may take longer to source. Sending us your target models early lets us confirm availability before you plan around them.</li>
+      <li><b>We recommend starting with one crate (approx. 1 m&sup3;) &mdash; it keeps the first shipment simple and lets you inspect the units before scaling up.</b></li>
+    </ol>
+  </div>
+
+  <div class="tb">
+    <span class="count" id="rowcount">50 models</span>
+  </div>
+
+  <div class="tw">
+    <table class="q">
+      <thead><tr><th class="idx">#</th><th class="">Brand</th><th class="">Model</th><th class=" n">Wholesale Avg.<br>USD / pc</th><th class=" n">Min. Order<br>pcs</th><th class=" n">Batch Total<br>USD</th><th class=" n">Single-Unit<br>Direct (USD)</th><th class=" n">OEM Refurb.<br>add-on</th></tr></thead>
+      <tbody id="tb">
+        <tr data-b="Copeland"><td class="idx">1</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP31K5E-PFV-130</span></td><td class="n" title="168.3099">$168</td><td class="n">18</td><td class="n" title="3029.5775">$3,030</td><td class="n" title="621.4085">$621</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">2</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP29K5E-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">3</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP39K5E-PFV-130</span></td><td class="n" title="247.8873">$248</td><td class="n">9</td><td class="n" title="2230.9859">$2,231</td><td class="n" title="859.7183">$860</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">4</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP42K5E-PFV-130</span></td><td class="n" title="260.5634">$261</td><td class="n">9</td><td class="n" title="2345.0704">$2,345</td><td class="n" title="854.3662">$854</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">5</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP51K5E-PFV-130</span></td><td class="n" title="260.5634">$261</td><td class="n">9</td><td class="n" title="2345.0704">$2,345</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">6</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR54K5E-PFV-800</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">7</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP34K5E-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">8</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR40K3-PFV-230</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">9</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR48K5E-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">10</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP24K5E-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">11</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR38K5E-PFV-800</span></td><td class="n" title="293.6620">$294</td><td class="n">18</td><td class="n" title="5285.9155">$5,286</td><td class="n" title="951.2676">$951</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">12</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP20K5E-PFV-130</span></td><td class="n" title="194.7623">$195</td><td class="n">32</td><td class="n" title="6232.3944">$6,232</td><td class="n" title="577.7465">$578</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">13</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR42K5E-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">14</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR32KA-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="721.9718">$722</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">15</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP49K5E-PFV-130</span></td><td class="n" title="260.5634">$261</td><td class="n">9</td><td class="n" title="2345.0704">$2,345</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">16</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP54K5E-PFV-130</span></td><td class="n" title="260.5634">$261</td><td class="n">9</td><td class="n" title="2345.0704">$2,345</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">17</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP49K6E-PFV-130</span></td><td class="n" title="260.5634">$261</td><td class="n">9</td><td class="n" title="2345.0704">$2,345</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">18</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR47K3-PFV-135</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">19</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR34K3-PFV-230</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="836.3380">$836</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">20</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP38K5E-PFV-130</span></td><td class="n" title="260.5634">$261</td><td class="n">9</td><td class="n" title="2345.0704">$2,345</td><td class="n" title="758.0282">$758</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">21</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP21LXE-PFV-800</span></td><td class="n" title="238.7324">$239</td><td class="n">18</td><td class="n" title="4297.1831">$4,297</td><td class="n" title="619.7183">$620</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">22</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR28K5E-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">23</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR25K5E-PFV-800</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">24</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR32K5E-PFV-800</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">25</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP51K6E-PFV-130</span></td><td class="n" title="274.6479">$275</td><td class="n">9</td><td class="n" title="2471.8310">$2,472</td><td class="n" title="886.4789">$886</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">26</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP25K5E-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">27</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR21KA-PFV-130</span></td><td class="n" title="194.7623">$195</td><td class="n">32</td><td class="n" title="6232.3944">$6,232</td><td class="n" title="577.7465">$578</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">28</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR61K3E-PFV-930</span></td><td class="n" title="375.0000">$375</td><td class="n">4</td><td class="n" title="1500.0000">$1,500</td><td class="n" title="1178.8732">$1,179</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">29</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR32K3-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">30</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP34K6E-PFV-830</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">31</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP31K6E-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">32</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR57K3E-PFV-930</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">33</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR36K3-PFV-230</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">34</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR28K3-PFV-230</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="721.9718">$722</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">35</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR26KA-PFV-130</span></td><td class="n" title="207.7465">$208</td><td class="n">18</td><td class="n" title="3739.4366">$3,739</td><td class="n" title="660.8451">$661</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">36</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP21K5E-PFV-130</span></td><td class="n" title="194.7623">$195</td><td class="n">32</td><td class="n" title="6232.3944">$6,232</td><td class="n" title="577.7465">$578</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">37</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP19K7E-PFV-830</span></td><td class="n" title="194.7623">$195</td><td class="n">32</td><td class="n" title="6232.3944">$6,232</td><td class="n" title="541.6901">$542</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">38</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR42K3-PFV-230</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">39</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR40KC-PFV-230</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">40</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR28K1-PFV-230</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">41</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR28KC-PFV-230</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">42</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR32K5-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">43</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP34K7E-PFV-830</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">44</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP20KAE-PFV-130</span></td><td class="n" title="194.7623">$195</td><td class="n">32</td><td class="n" title="6232.3944">$6,232</td><td class="n" title="577.7465">$578</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">45</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP42K6E-PFV-830</span></td><td class="n" title="260.5634">$261</td><td class="n">9</td><td class="n" title="2345.0704">$2,345</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">46</td><td class="brand">Copeland</td><td class="model"><span class="m">ZP29K6E-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="667.8873">$668</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">47</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR54KA-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">48</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR54K5-PFV-130</span></td><td class="n" title="214.7887">$215</td><td class="n">18</td><td class="n" title="3866.1972">$3,866</td><td class="n" title="872.3944">$872</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">49</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR16KA-PFV-130</span></td><td class="n" title="237.0158">$237</td><td class="n">32</td><td class="n" title="7584.5070">$7,585</td><td class="n" title="620.0000">$620</td><td class="n addon">+ $150</td></tr>
+        <tr data-b="Copeland"><td class="idx">50</td><td class="brand">Copeland</td><td class="model"><span class="m">ZR47KC-PFV-235</span></td><td class="n" title="260.5634">$261</td><td class="n">9</td><td class="n" title="2345.0704">$2,345</td><td class="n" title="998.5915">$999</td><td class="n addon">+ $150</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="notes">
+    <p><b>Transit time.</b> Single-unit air direct: 5-9 days. Sea freight, door to door: 25-30 days.</p>
+    <p><b>Wholesale price.</b> A full crate is approximately 1 m&sup3;. Orders filling a full crate qualify for the wholesale price.</p>
+  </div>
+
+  <div class="terms">
+    <div class="term">
+      <h3>Payment terms</h3>
+      <ol class="steps">
+        <li>
+          <div class="st">Start preparation <span class="pay">30% deposit</span></div>
+          <p>A 30% deposit confirms and starts preparation of your order.</p>
+        </li>
+        <li>
+          <div class="st">Quality check &amp; documentation</div>
+          <p>Once the goods are fully prepared, we will send you clear photos and inspection videos for your confirmation.</p>
+        </li>
+        <li>
+          <div class="st">China warehouse delivery &amp; balance <span class="pay">70% balance</span></div>
+          <p>We will transport the goods to our international freight forwarder's warehouse in China and provide you with the official warehouse receipt and trucking documents as proof. You pay the 70% balance at this stage.</p>
+        </li>
+        <li>
+          <div class="st">Global shipping</div>
+          <p>After the balance is cleared, we immediately proceed with export customs clearance, international freight (air or sea, as agreed), and final door-to-door delivery to your address in the US.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="warn">
+    <b>Important:</b> Please do not transfer funds before confirmation. For every order, confirm stock, price, preparation time and the shipping plan with us in advance.
+  </div>
+
+  <div class="cta">
+    For pricing on other models, please <b>contact us directly</b> to confirm.<br>
+    Combined multi-model orders can be arranged at wholesale prices. Final price is <b>subject to our quotation</b>.
+  </div>
+
+  <div class="letter">
+    <div class="lb">P.S. A quick note from the Founder:</div>
+    <p>Hi there, if you’ve read this far, I guess our products have caught your attention.</p>
+    <p>To be fully transparent and responsible to you, I must admit that we are not a giant company. In fact, we are still taking our baby steps in international trade.</p>
+    <p>If you prefer a phone call, I will personally answer it. However, please bear with me if my spoken English isn't fluent enough for a smooth call. If you use WhatsApp or other chat apps, I’m totally fine using translation tools to make sure we understand each other perfectly.</p>
+    <p>If these facts are a dealbreaker for you, I completely understand. But what I can promise is our absolute sincerity and dedication. We are not chasing maximum profits. Our ultimate goal is to build long-term trust and a real partnership with you, through our products and our service.</p>
+    <p>If you have needs in other areas, I’d love to explore them with you. I sincerely hope we have the chance to grow together with your business.</p>
+    <div class="sig">
+      <p>Best regards,</p>
+      <p class="nm">Hao Wang</p>
+      <p class="role">Director / Beijing Shangxiaobai Technology Co., Ltd.</p>
+    </div>
+  </div>
+
+  <div class="ft">
+    <div><b>BEIJING SHANGXIAOBAI TECHNOLOGY CO., LTD.</b> &middot; Beijing, China</div>
+    <div>haow@wqsxb.com &middot; WhatsApp +86 191 7695 7936</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  var $ = function(id){ return document.getElementById(id); };
+  var tb = $('tb');
+  if(tb) $('rowcount').textContent = tb.rows.length + ' models';
+  var d = new Date();
+  $('q-date').textContent = d.getFullYear() + '-' +
+    String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+})();
+</script>
+</body>
+</html>

@@ -412,6 +412,7 @@ def header(data, active="", base=""):
   <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
   <nav class="nav-links">
     {nav(active, base)}
+    <a href="{base}price-list.html">Price List</a>
     <a class="btn btn-accent" href="{base}contact.html">Contact Us</a>
   </nav>
 </div>
@@ -1002,6 +1003,8 @@ def main():
         (SITE / (key + ".html")).write_text(build_static(data, key), encoding="utf-8")
         urls.append(key + ".html")
     (SITE / "404.html").write_text(build_404(data), encoding="utf-8")
+    if (SITE / "price-list.html").exists():
+        urls.append("price-list.html")
 
     write_sitemap(data, urls)
     write_robots(data)
