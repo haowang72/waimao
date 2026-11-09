@@ -454,6 +454,7 @@ def footer(data, base=""):
       <h4>Company</h4>
         <ul>
           <li><a href="{base}contact.html">Contact us</a></li>
+          <li><a href="{base}privacy-policy.html">Privacy Policy</a></li>
         </ul>
     </div>
   </div>
