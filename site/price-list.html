@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Baizly — Used Compressor Price List (Popular Models)</title>
+<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+<link rel="stylesheet" href="assets/css/style.css">
 <style>
 :root{
   --ink:#0f2740; --ink2:#3d5266; --ink3:#6b7f92; --line:#dfe5ec; --line2:#eef2f6;
@@ -14,13 +16,6 @@ html,body{margin:0;padding:0;-webkit-text-size-adjust:100%;text-size-adjust:100%
 body{background:var(--bg);color:var(--ink);
   font:13px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;
   -webkit-font-smoothing:antialiased}
-/* Email greeting: plain text outside the quotation sheet, deliberately
-   separated from the quotation layout (no card, no table, no notice styling). */
-.greeting{max-width:1240px;margin:26px auto 18px;padding:0 4px;
-  font-size:14px;line-height:1.7;color:#0f2740}
-.greeting p{margin:0 0 7px}
-.greeting p:last-child{margin-bottom:0}
-
 .sheet{max-width:1240px;margin:0 auto 60px;background:var(--paper);border:1px solid var(--line);
   box-shadow:0 1px 3px rgba(15,39,64,.06),0 10px 30px rgba(15,39,64,.05);padding:0 0 30px}
 
@@ -163,8 +158,6 @@ td.addon{color:var(--warn);font-weight:600;font-size:11.5px}
 @media print{
   @page{size:A4 landscape;margin:10mm 9mm}
   body{background:#fff;font-size:8.6pt}
-  .greeting{max-width:none;margin:0 0 6px;padding:0;font-size:8.6pt;line-height:1.35}
-  .greeting p{margin:0 0 2px}
   .sheet{max-width:none;margin:0;border:0;box-shadow:none;padding:0}
   .tb{margin:6px 0 0}
   .hd{padding:0 0 8px}
@@ -206,17 +199,30 @@ td.addon{color:var(--warn);font-weight:600;font-size:11.5px}
 </style>
 </head>
 <body>
-<div style="max-width:1240px;margin:0 auto;padding:14px 4px 0;display:flex;justify-content:space-between;align-items:center;font-size:13px">
-  <a href="index.html" style="color:#0f2740;text-decoration:none;font-weight:700;letter-spacing:.4px">Baizly</a>
-  <a href="contact.html" style="color:#a86412;text-decoration:none;font-weight:600">Contact us</a>
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <span class="tb-tag">Second-hand AC compressor recycling &middot; Beijing, China</span>
+    <span class="tb-links">
+      <a href="tel:+8613401119022">Tel</a>
+      <a href="https://wa.me/8619176957936" rel="nofollow noopener">WhatsApp</a>
+      <a href="mailto:haow@wqsxb.com">Email</a>
+    </span>
+  </div>
 </div>
-<div class="greeting">
-  <p>Hi</p>
-  <p>Good day.</p>
-  <p>Please see our current quotation list for used Copeland compressors below.</p>
-  <p>We also work with other brands including Bitzer, Bristol, Tecumseh, Carlyle, Trane, Carrier, and Danfoss.</p>
-  <p>If you need to check the price for any specific model, just let me know and I'll get back to you with the details.</p>
+<header class="site-header">
+<div class="wrap nav">
+  <a class="logo" href="index.html">
+    <img class="logo-img" src="assets/img/logo-horizontal.png" width="111" height="40" alt="Baizly">
+    <span class="logo-text">Baizly</span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  <nav class="nav-links">
+    <a href="index.html">Home</a><div class="nav-item has-sub"><a class="" href="catalog.html">Compressors</a><div class="sub"><a class="" href="catalog.html">All models</a><a class="" href="categories/rotary.html">Rotary</a><a class="" href="categories/scroll.html">Scroll</a><a class="" href="categories/reciprocating.html">Refrigeration</a></div></div>
+    <a class="active" href="price-list.html">Price List</a>
+    <a class="btn btn-accent" href="contact.html">Contact Us</a>
+  </nav>
 </div>
+</header>
 
 <div class="sheet">
 
@@ -242,6 +248,7 @@ td.addon{color:var(--warn);font-weight:600;font-size:11.5px}
 
   <div class="notice">
     <ol>
+      <li>We source through a network of experienced frontline repair technicians in China, which allows us to offer highly competitive pricing.</li>
       <li><b>All prices shown are preliminary estimates based on current stock and may vary by model and quantity.</b></li>
       <li>Some high-demand models are in limited supply, and larger quantities may take longer to source. Sending us your target models early lets us confirm availability before you plan around them.</li>
       <li><b>We recommend starting with one crate (approx. 1 m&sup3;) &mdash; it keeps the first shipment simple and lets you inspect the units before scaling up.</b></li>
@@ -377,5 +384,44 @@ td.addon{color:var(--warn);font-weight:600;font-size:11.5px}
     String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
 })();
 </script>
+<footer class="footer">
+<div class="wrap">
+  <div class="footer-grid">
+    <div>
+      <h4>Baizly</h4>
+      <p class="small" style="letter-spacing:.16em;color:#7f8ea6;margin:-8px 0 10px">China Second-Hand Compressor Recycling</p>
+      <p class="small">We are a second-hand air conditioning compressor recycling company based in China, offering you more competitive prices.</p>
+      <p class="small">Beijing, China<br>Mon&ndash;Sat, 09:00&ndash;18:00 (GMT+8)</p>
+      <p class="small" style="opacity:.75">B.J. Baizly TECH CO., LTD.</p>
+      <p class="small">
+        <a href="tel:+8613401119022">Tel: +86 13401119022</a><br>
+        <a href="https://wa.me/8619176957936" rel="nofollow noopener">WhatsApp: +86 19176957936</a><br>
+        WeChat: 13401119022<br>
+        <a href="mailto:haow@wqsxb.com">haow@wqsxb.com</a>
+      </p>
+    </div>
+    <div>
+      <h4>Products</h4>
+      <ul><li><a href="categories/rotary.html">Rotary Compressors</a></li><li><a href="categories/scroll.html">Scroll Compressors</a></li><li><a href="categories/reciprocating.html">Hermetic Reciprocating Compressors</a></li><li><a href="catalog.html">Full model catalog</a></li></ul>
+    </div>
+    <div>
+      <h4>Popular Models</h4>
+      <ul><li><a href="models/gmcc-ph135x1c-4p3.html">GMCC PH135X1C-4P3</a></li><li><a href="models/gmcc-ph150x1c-4p3.html">GMCC PH150X1C-4P3</a></li><li><a href="models/copeland-zr34k3-pfj-522.html">Copeland ZR34K3-PFJ-522</a></li><li><a href="models/copeland-zp24k3e-pfj-522.html">Copeland ZP24K3E-PFJ-522</a></li><li><a href="models/embraco-ffi12hbk.html">Embraco FFI12HBK</a></li><li><a href="models/aspera-nek6213z.html">Aspera (Embraco) NEK6213Z</a></li></ul>
+    </div>
+    <div>
+      <h4>Company</h4>
+        <ul>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Baizly. All rights reserved.</span>
+    <span class="small">All brand names and model numbers belong to their respective owners and are used for identification and compatibility reference only.</span>
+  </div>
+</div>
+</footer>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
